@@ -30,18 +30,18 @@ header nav a:hover {
 }
 
 .profile-pic {
-  width: 120px; /* Smaller profile picture */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 50%; /* Circular shape */
-  margin-top: 20px; /* Adjusted spacing */
-  border: 4px solid #3498db; /* Stylish blue border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  width: 120px; 
+  height: auto; 
+  border-radius: 50%; 
+  margin-top: 20px; 
+  border: 4px solid #3498db; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .profile-pic:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 8px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.1); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 8px 25px rgba(0, 0, 0, 0.2); 
 }
 
 main {
@@ -59,13 +59,13 @@ ul li {
 }
 
 footer {
-  position: fixed; /* Fix the footer to the bottom */
-  bottom: 0; /* Align to the bottom of the viewport */
+  position: fixed; 
+  bottom: 0; 
   left: 0;
-  width: 100%; /* Stretch the footer across the entire width */
-  background-color: #f0f0f0; /* Light grey background */
-  text-align: center; /* Center align the text */
-  padding: 10px 0; /* Add some padding for better spacing */
-  font-size: 14px; /* Slightly smaller font size */
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for a subtle lift effect */
+  width: 100%; 
+  background-color: #f0f0f0; 
+  text-align: center; 
+  padding: 10px 0;
+  font-size: 14px; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
 }
